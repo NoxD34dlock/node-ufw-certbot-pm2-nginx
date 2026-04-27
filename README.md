@@ -2,9 +2,11 @@
 Despliegue de aplicacion backend
 Hilo de comandos:
 
+#Instalar nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 source ~/.bashrc
 
+#Instalar node
 nvm install node
 cd books-express
 
