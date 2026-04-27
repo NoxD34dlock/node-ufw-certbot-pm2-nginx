@@ -2,7 +2,7 @@
 Despliegue de aplicacion backend
 Hilo de comandos:
 
-#Instalar nvm
+#Instalar nvm \n
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 source ~/.bashrc
 
