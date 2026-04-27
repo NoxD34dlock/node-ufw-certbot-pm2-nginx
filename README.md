@@ -46,6 +46,6 @@ sudo service nginx restart
 sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx -d tu.dominio -d www.tu.dominio
-certobot renew --dry-run
+certbot renew --dry-run
 ```
 
