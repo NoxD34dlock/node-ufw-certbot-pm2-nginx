@@ -10,7 +10,7 @@ source ~/.bashrc
 #Instalar node
 ```
 nvm install node
-cd books-express
+cd <proyect>
 ```
 #Iniciando el servidor
 ```
@@ -21,7 +21,7 @@ npm start
 #Configurando pm2
 ```
 npm install pm2 -g
-pm2 start src/app.js --name myapp
+pm2 start <src/app.js> --name <myappname>
 pm2 startup
 pm2 save
 ```
